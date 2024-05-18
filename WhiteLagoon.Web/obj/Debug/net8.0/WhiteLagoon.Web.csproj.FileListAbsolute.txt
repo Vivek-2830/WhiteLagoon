@@ -151,3 +151,4 @@ D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Web\obj\Debug\net8.0\WhiteLa
 D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Web\obj\Debug\net8.0\WhiteLag.E5366113.Up2Date
 D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\WhiteLagoon.Domain.dll
 D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\WhiteLagoon.Domain.pdb
+D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Web\obj\Debug\net8.0\WhiteLagoon.Web.sourcelink.json
