@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|d:\\users\\admin\\source\\repos\\whitelagoon\\whitelagoon.web\\views\\villanumber\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\villanumber\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|d:\\users\\admin\\source\\repos\\whitelagoon\\whitelagoon.web\\views\\villanumber\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\villanumber\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|d:\\users\\admin\\source\\repos\\whitelagoon\\whitelagoon.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|d:\\users\\admin\\source\\repos\\whitelagoon\\whitelagoon.web\\views\\villanumber\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\Views\\VillaNumber\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\VillaNumber\\Delete.cshtml",
+              "ToolTip": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\Views\\VillaNumber\\Delete.cshtml",
+              "RelativeToolTip": "WhiteLagoon.Web\\Views\\VillaNumber\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T06:58:34.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WhiteLagoon.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T06:54:06.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\Views\\VillaNumber\\Create.cshtml",
               "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\VillaNumber\\Create.cshtml",
@@ -39,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\Views\\VillaNumber\\Update.cshtml",
               "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\VillaNumber\\Update.cshtml",
               "ToolTip": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\Views\\VillaNumber\\Update.cshtml",
               "RelativeToolTip": "WhiteLagoon.Web\\Views\\VillaNumber\\Update.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-21T06:17:59.459Z",
               "EditorCaption": ""
@@ -58,7 +92,7 @@
               "RelativeDocumentMoniker": "WhiteLagoon.Web\\Controllers\\VillaNumberController.cs",
               "ToolTip": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\Controllers\\VillaNumberController.cs",
               "RelativeToolTip": "WhiteLagoon.Web\\Controllers\\VillaNumberController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAABDAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAAIgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T06:12:04.377Z",
               "EditorCaption": ""
