@@ -9,3 +9,4 @@ D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Application\obj\Debug\net8.0
 D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Application\obj\Debug\net8.0\refint\WhiteLagoon.Application.dll
 D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Application\obj\Debug\net8.0\WhiteLagoon.Application.pdb
 D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Application\obj\Debug\net8.0\ref\WhiteLagoon.Application.dll
+D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Application\obj\Debug\net8.0\WhiteLagoon.Application.sourcelink.json
