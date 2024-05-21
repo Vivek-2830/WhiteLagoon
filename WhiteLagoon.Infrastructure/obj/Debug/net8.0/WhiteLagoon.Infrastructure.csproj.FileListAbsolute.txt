@@ -16,3 +16,5 @@ D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Infrastructure\bin\Debug\net
 D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Infrastructure\bin\Debug\net8.0\WhiteLagoon.Domain.pdb
 D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Infrastructure\obj\Debug\net8.0\WhiteLag.7132A6B4.Up2Date
 D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Infrastructure\obj\Debug\net8.0\WhiteLagoon.Infrastructure.sourcelink.json
+D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Infrastructure\bin\Debug\net8.0\WhiteLagoon.Application.dll
+D:\Users\admin\source\repos\WhiteLagoon\WhiteLagoon.Infrastructure\bin\Debug\net8.0\WhiteLagoon.Application.pdb
