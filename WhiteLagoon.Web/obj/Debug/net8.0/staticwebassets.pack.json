@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\Room Images\\7.jpg"
     },
     {
+      "Id": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\images\\VillaImage\\c04d75b4-8e2a-418b-bd25-17a4e72209c0.jpg",
+      "PackagePath": "staticwebassets\\images\\VillaImage\\c04d75b4-8e2a-418b-bd25-17a4e72209c0.jpg"
+    },
+    {
       "Id": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\images\\accessDenied.jpg",
       "PackagePath": "staticwebassets\\images\\accessDenied.jpg"
     },

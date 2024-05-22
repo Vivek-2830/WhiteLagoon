@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jpQz5gJ2L3ynWvfSjR7K+0WNFGZ/MEBJczBgoehCsBU=",
+  "Hash": "b7Ujd3duPeArQ4QBBivJam9V49q5zXQfM1uS3EwjGxs=",
   "Source": "WhiteLagoon.Web",
   "BasePath": "_content/WhiteLagoon.Web",
   "Mode": "Default",
@@ -357,6 +357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\slide2.jpg"
+    },
+    {
+      "Identity": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\images\\VillaImage\\c04d75b4-8e2a-418b-bd25-17a4e72209c0.jpg",
+      "SourceId": "WhiteLagoon.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\",
+      "BasePath": "_content/WhiteLagoon.Web",
+      "RelativePath": "images/VillaImage/c04d75b4-8e2a-418b-bd25-17a4e72209c0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\VillaImage\\c04d75b4-8e2a-418b-bd25-17a4e72209c0.jpg"
     },
     {
       "Identity": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\site.js",
