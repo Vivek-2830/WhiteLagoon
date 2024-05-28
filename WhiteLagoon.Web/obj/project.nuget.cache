@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zoPZyfPOKJIkJSThBRHf2HFf/YSmMHR4FI8erdyPLiiDtdZPTcTUHFn5gtxhqsuMAISaQjVVJxNQxNLOs7eqKQ==",
+  "dgSpecHash": "AKMsa0/WfmU=",
   "success": true,
-  "projectFilePath": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Web\\WhiteLagoon.Web.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\WhiteLagoon.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

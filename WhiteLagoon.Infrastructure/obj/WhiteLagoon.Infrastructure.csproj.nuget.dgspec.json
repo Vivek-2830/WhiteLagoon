@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj": {}
+    "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj": {
+    "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj",
         "projectName": "WhiteLagoon.Application",
-        "projectPath": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Application\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -33,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj": {
-                "projectPath": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj"
+              "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj": {
+                "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj"
               }
             }
           }
@@ -69,25 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj": {
+    "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj",
         "projectName": "WhiteLagoon.Domain",
-        "projectPath": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Domain\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -140,25 +132,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj": {
+    "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj",
         "projectName": "WhiteLagoon.Infrastructure",
-        "projectPath": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -173,8 +161,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj": {
-                "projectPath": "D:\\Users\\admin\\source\\repos\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj"
+              "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj": {
+                "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Application\\WhiteLagoon.Application.csproj"
               }
             }
           }
@@ -227,7 +215,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
