@@ -33,4 +33,16 @@
     <Folder Include="wwwroot\images\VillaImage\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Shared\_VillaList.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Shared\_VillaList.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\_VillaList.cshtml" />
+  </ItemGroup>
+
 </Project>
