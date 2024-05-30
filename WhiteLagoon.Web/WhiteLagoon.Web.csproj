@@ -23,6 +23,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Stripe.net" Version="44.9.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,11 +39,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Booking\BookingConfirmation.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Shared\_VillaList.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Booking\BookingConfirmation.cshtml" />
     <None Include="Views\Shared\_VillaList.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Booking\BookingConfirmation.cshtml" />
   </ItemGroup>
 
 </Project>
