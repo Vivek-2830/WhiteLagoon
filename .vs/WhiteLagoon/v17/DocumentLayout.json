@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\views\\shared\\_loginpartialadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\shared\\_loginpartialadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\wwwroot\\js\\dashboard\\gettotalbookingsradial.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\wwwroot\\js\\dashboard\\gettotalbookingsradial.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\viewmodels\\radialbarchartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\viewmodels\\radialbarchartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_LoginPartialAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_LoginPartialAdmin.cshtml",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\Shared\\_LoginPartialAdmin.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_LoginPartialAdmin.cshtml",
-              "RelativeToolTip": "WhiteLagoon.Web\\Views\\Shared\\_LoginPartialAdmin.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T13:43:54.747Z",
+              "Title": "getTotalBookingsRadial.js",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalBookingsRadial.js",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalBookingsRadial.js",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalBookingsRadial.js",
+              "RelativeToolTip": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalBookingsRadial.js",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvxoAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-01T17:38:05.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "WhiteLagoon.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAuwBcAAAAZAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "WhiteLagoon.Web\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABMAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T12:58:32.55Z",
+              "WhenOpened": "2024-06-01T17:22:11.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WhiteLagoon.Web\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wBcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:46:03.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RadialBarChartVM.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\ViewModels\\RadialBarChartVM.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\ViewModels\\RadialBarChartVM.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\ViewModels\\RadialBarChartVM.cs",
+              "RelativeToolTip": "WhiteLagoon.Web\\ViewModels\\RadialBarChartVM.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA5wAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:42:08.316Z",
               "EditorCaption": ""
             }
           ]
