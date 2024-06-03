@@ -26,7 +26,7 @@ function loadPieChart(id, data) {
         colors: chartColors,
         chart: {
             width: 380,
-            type: 'donut'
+            type: 'pie'
         },
         stroke: {
             show: false

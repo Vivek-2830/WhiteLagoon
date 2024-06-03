@@ -3,7 +3,7 @@
     var options = {
         fill: {
             colors: chartColors
-        }
+        },
         chart: {
             height: 90,
             width: 90,
@@ -23,9 +23,9 @@
                 }
             }
         },
-        labels: [" "]
+        labels: [""]
     };
-    var chart = new ApexCharts(document.querySelector("#" + id), options);
+    var chart = new ApexCharts(document.querySelector("#"+id), options);
     chart.render();
 
 }

@@ -7,7 +7,7 @@ function loadUserRadialChart() {
     $(".chart-spinner").show();
 
     $.ajax({
-        url: "/Dashboard/GetRegisterUserChartData",
+        url: "/Dashboard/GetRegisteredUserChartData",
         type: 'GET',
         dataType: 'json',
         success: function (data) {
@@ -18,7 +18,8 @@ function loadUserRadialChart() {
                 sectionCurrentCount.className = "text-success me-1";
                 sectionCurrentCount.innerHTML = '<i class="bi bi-arrow-up-right-circle me-1"></i> <span> ' + data.countInCurrentMonth + '</span>';
             }
-            else {
+            else
+            {
                 sectionCurrentCount.className = "text-danger me-1";
                 sectionCurrentCount.innerHTML = '<i class="bi bi-arrow-down-right-circle me-1"></i> <span> ' + data.countInCurrentMonth + '</span>';
             }
