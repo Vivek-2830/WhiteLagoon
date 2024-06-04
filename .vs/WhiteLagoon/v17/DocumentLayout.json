@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\wwwroot\\js\\dashboard\\getcustomerbookingpiechart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\wwwroot\\js\\dashboard\\getcustomerbookingpiechart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\views\\shared\\_villalist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\shared\\_villalist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\views\\booking\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\booking\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\wwwroot\\js\\dashboard\\getcustomerandbookinglinechart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\wwwroot\\js\\dashboard\\getcustomerandbookinglinechart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\wwwroot\\js\\dashboard\\gettotalrevenueradial.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\wwwroot\\js\\dashboard\\gettotalrevenueradial.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\viewmodels\\linechartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\viewmodels\\linechartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\wwwroot\\js\\dashboard\\gettotaluserradial.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\wwwroot\\js\\dashboard\\gettotaluserradial.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\viewmodels\\radialbarchartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\viewmodels\\radialbarchartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88476018-4FEB-4433-8F27-ED9A0964CD83}|WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88476018-4FEB-4433-8F27-ED9A0964CD83}|WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj|solutionrelative:whitelagoon.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,119 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "WhiteLagoon.Web\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAAAFkAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T07:18:15.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "WhiteLagoon.Web\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwFMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T14:46:03.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "getCustomerBookingPieChart.js",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getCustomerBookingPieChart.js",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getCustomerBookingPieChart.js",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getCustomerBookingPieChart.js",
-              "RelativeToolTip": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getCustomerBookingPieChart.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-03T06:39:49.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RadialBarChartVM.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\ViewModels\\RadialBarChartVM.cs",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\ViewModels\\RadialBarChartVM.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\ViewModels\\RadialBarChartVM.cs",
-              "RelativeToolTip": "WhiteLagoon.Web\\ViewModels\\RadialBarChartVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T06:48:22.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "getTotalRevenueRadial.js",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalRevenueRadial.js",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalRevenueRadial.js",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalRevenueRadial.js",
-              "RelativeToolTip": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalRevenueRadial.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-03T06:47:59.371Z",
+              "Title": "_VillaList.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_VillaList.cshtml",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\Shared\\_VillaList.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_VillaList.cshtml",
+              "RelativeToolTip": "WhiteLagoon.Web\\Views\\Shared\\_VillaList.cshtml",
+              "ViewState": "AQIAADgAAAAAAAAAAAAYwEwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T13:44:08.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "getCustomerAndBookingLineChart.js",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getCustomerAndBookingLineChart.js",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getCustomerAndBookingLineChart.js",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getCustomerAndBookingLineChart.js",
-              "RelativeToolTip": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getCustomerAndBookingLineChart.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-03T10:13:24.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WhiteLagoon.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T11:38:26.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "getTotalUserRadial.js",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalUserRadial.js",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalUserRadial.js",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalUserRadial.js",
-              "RelativeToolTip": "WhiteLagoon.Web\\wwwroot\\js\\dashboard\\getTotalUserRadial.js",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAkAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-03T07:38:42.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LineChartVM.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\ViewModels\\LineChartVM.cs",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\ViewModels\\LineChartVM.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\ViewModels\\LineChartVM.cs",
-              "RelativeToolTip": "WhiteLagoon.Web\\ViewModels\\LineChartVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Domain\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Domain\\Entities\\Booking.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Domain\\Entities\\Booking.cs",
+              "RelativeToolTip": "WhiteLagoon.Domain\\Entities\\Booking.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T09:58:59.845Z",
+              "WhenOpened": "2024-06-04T10:59:07.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Booking\\BookingDetails.cshtml",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\Booking\\BookingDetails.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Booking\\BookingDetails.cshtml",
+              "RelativeToolTip": "WhiteLagoon.Web\\Views\\Booking\\BookingDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T08:06:06.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "WhiteLagoon.Web\\Controllers\\BookingController.cs",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAAwPoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:05:53.885Z",
               "EditorCaption": ""
             }
           ]
