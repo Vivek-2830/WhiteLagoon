@@ -168,6 +168,8 @@ namespace WhiteLagoon.Web.Controllers
             return View(bookingFromDb);
         }
 
+
+        //download doc and pdf contain
         [HttpPost]
         [Authorize]
         public IActionResult GenerateInvoice(int id, string downloadType)

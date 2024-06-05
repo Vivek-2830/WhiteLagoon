@@ -26,7 +26,7 @@ namespace WhiteLagoon.Web.Controllers
             _roleManager = roleManager;
         }   
 
-        public IActionResult Login(string returnUrl=null)
+        public IActionResult Login(string returnUrl = null)
         {
             returnUrl??= Url.Content("~/");
 
@@ -52,11 +52,7 @@ namespace WhiteLagoon.Web.Controllers
         public IActionResult Register(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
-            if (!_roleManager.RoleExistsAsync(SD.Role_Admin).GetAwaiter().GetResult())
-            {
-                _roleManager.CreateAsync(new IdentityRole("SD.Role_Admin")).Wait();
-                _roleManager.CreateAsync(new IdentityRole("SD.Role_Customer")).Wait();
-            }
+            
 
             RegisterVM registerVM = new()
             {

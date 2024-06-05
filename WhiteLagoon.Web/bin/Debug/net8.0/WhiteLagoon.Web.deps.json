@@ -16,6 +16,7 @@
           "Syncfusion.DocIORenderer.Net.Core": "22.2.8",
           "Syncfusion.Licensing": "22.2.8",
           "Syncfusion.Pdf.Net.Core": "22.2.8",
+          "Syncfusion.Presentation.Net.Core": "22.2.8",
           "WhiteLagoon.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -991,6 +992,19 @@
           }
         }
       },
+      "Syncfusion.Presentation.Net.Core/22.2.8": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "22.2.8",
+          "Syncfusion.Licensing": "22.2.8",
+          "Syncfusion.OfficeChart.Net.Core": "22.2.8"
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Presentation.Portable.dll": {
+            "assemblyVersion": "22.2.8.0",
+            "fileVersion": "22.2.8.0"
+          }
+        }
+      },
       "Syncfusion.SkiaSharpHelper.Net.Core/22.2.8": {
         "dependencies": {
           "SkiaSharp.HarfBuzz": "2.88.2",
@@ -1866,6 +1880,13 @@
       "sha512": "sha512-1CmmAXYJfn1vNHBa3m7u4MSrvJSTB7XkajhVXCXsda/uer/PFZi+ur3PwStMqzKdWjb7c3FO72oAu3ibEqp4JA==",
       "path": "syncfusion.pdf.net.core/22.2.8",
       "hashPath": "syncfusion.pdf.net.core.22.2.8.nupkg.sha512"
+    },
+    "Syncfusion.Presentation.Net.Core/22.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fPQtAnug+DB/DGJC82sd6LRQoN70ng1WG5l58Lr+KZU9bG59BF/5h6Wy4NqcUYHejlsOSD+RSKZs/IgB20td6A==",
+      "path": "syncfusion.presentation.net.core/22.2.8",
+      "hashPath": "syncfusion.presentation.net.core.22.2.8.nupkg.sha512"
     },
     "Syncfusion.SkiaSharpHelper.Net.Core/22.2.8": {
       "type": "package",
