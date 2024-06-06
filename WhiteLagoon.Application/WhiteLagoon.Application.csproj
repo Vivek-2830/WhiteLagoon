@@ -6,7 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  
+
   <ItemGroup>
+	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
     <ProjectReference Include="..\WhiteLagoon.Domain\WhiteLagoon.Domain.csproj" />
   </ItemGroup>
 

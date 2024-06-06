@@ -13,6 +13,7 @@ namespace WhiteLagoon.Infrastructure.Data
 {
     public class DbInitializer : IDbInitializer
     {
+
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly ApplicationDbContext _db;
@@ -38,28 +39,23 @@ namespace WhiteLagoon.Infrastructure.Data
 
                 if (!_roleManager.RoleExistsAsync(SD.Role_Admin).GetAwaiter().GetResult())
                 {
-                    _roleManager.CreateAsync(new IdentityRole("SD.Role_Admin")).Wait();
-                    _roleManager.CreateAsync(new IdentityRole("SD.Role_Customer")).Wait();
-
+                    _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin)).Wait();
+                    _roleManager.CreateAsync(new IdentityRole(SD.Role_Customer)).Wait();
                     _userManager.CreateAsync(new ApplicationUser
                     {
                         UserName = "admin@dotnetvivek.com",
                         Email = "admin@dotnetvivek.com",
                         Name = "Vivek Gohil",
                         NormalizedUserName = "ADMIN@DOTNETVIVEK.COM",
-                        NormalizedEmail = "ADMIN@DOTNETVIVEK.COM",
-                        PhoneNumber = "9913155980",
+                        NormalizedEmail = "ADMIN@DOTNETVIVEKCOM",
+                        PhoneNumber = "1112223333",
                     }, "Admin123*").GetAwaiter().GetResult();
-
-                   
 
                     ApplicationUser user = _db.ApplicationUsers.FirstOrDefault(u => u.Email == "admin@dotnetvivek.com");
                     _userManager.AddToRoleAsync(user, SD.Role_Admin).GetAwaiter().GetResult();
-
-
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 throw;
             }
