@@ -16,6 +16,7 @@ using WhiteLagoon.Application.Services.Interface;
 using Microsoft.AspNetCore.Identity;
 using WhiteLagoon.Infrastructure.Repository;
 using WhiteLagoon.Application.Services.Implementation;
+using System.ComponentModel.DataAnnotations;
 
 namespace WhiteLagoon.Web.Controllers
 {
@@ -110,7 +111,7 @@ namespace WhiteLagoon.Web.Controllers
                 PriceData = new SessionLineItemPriceDataOptions
                 {
                     UnitAmount = (long)(booking.TotalCost * 100),
-                    Currency = "usd",
+                    Currency = "inr",
                     ProductData = new SessionLineItemPriceDataProductDataOptions
                     {
                         Name = villa.Name,
@@ -348,6 +349,8 @@ namespace WhiteLagoon.Web.Controllers
             }
             return availableVillaNumbers;
         }
+
+
 
         #region API Calls
         [HttpGet]

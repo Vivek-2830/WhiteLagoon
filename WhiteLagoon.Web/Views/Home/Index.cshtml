@@ -49,8 +49,9 @@
 
             <div class="col-4 col-md-2 pt-4 pr-2">
                 <div class="form-group">
-                    <button type="button" onclick="fnLoadVillaList()" class="btn btn-success btn-block">
-                        <i class="bi bi-search"></i>  &nbsp; Check Availability
+                    <button type="button" onclick="fnLoadVillaList()" class="btn btn-success btn-block"> 
+                        <i class="bi bi-search"></i>  &nbsp; Check Availability 
+                        
                     </button>
 
                 </div>
@@ -68,7 +69,7 @@
                 checkInDate: $("#CheckInDate").val(),
                 nights: $("#Nights").val()
             };
-
+            
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetVillasByDate","Home")",

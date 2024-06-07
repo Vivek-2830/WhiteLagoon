@@ -1,5 +1,15 @@
 ﻿@model HomeVM
+
 <div id="VillasList">
+    @if (Model.CheckInDate <= DateOnly.FromDateTime(DateTime.Now))
+    {
+        <div>
+            <p class="text-center text-danger">
+                Please Select The Date
+            </p>
+        </div>
+    }
+
 <div class="row px-lg-5 m-lg-4 m-sm-0 px-sm-0" style="--bs-gutter-x:0">
     @foreach (var villa in Model.VillaList)
     {
@@ -29,7 +39,7 @@
                                 if (villa.IsAvailable)
                                 {
                                     <a asp-controller="Booking" asp-action="FinalizeBooking" 
-                                    asp-route-villaId="@villa.Id" asp-route-checkInDate="@Model.CheckOutDate"
+                                    asp-route-villaId="@villa.Id" asp-route-checkInDate="@Model.CheckInDate"
                                     asp-route-nights="@Model.Nights"
                                     class="btn btn-success form-control btn-block">
                                         Book
@@ -39,9 +49,16 @@
                                 {
                                     <a class="btn btn-outline-danger disabled form-control btn-block">
                                         Sold Out
+                                        </a>
+                                    }
+                                }
+                                else
+                                {
+                                    <a class="btn btn-outline-danger disabled form-control btn-block">
+                                        Select Date
                                     </a>
                                 }
-                            }
+
                         </div>
                         <div class="col-4">
                             <span class="">Max Occupancy : @villa.Occupancy adults </span><br />
@@ -49,7 +66,7 @@
                         </div>
                         <div class="col-4">
                             <span class="text-warning float-end font-weight-bold pt-1" style="font-size:25px;">
-                                USD
+                                INR
                                 <span style="border-bottom:1px solid #ff6a00">
                                     @villa.Price.ToString("c")
                                 </span>
