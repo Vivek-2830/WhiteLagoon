@@ -26,6 +26,7 @@ namespace WhiteLagoon.Web.Controllers
         public IActionResult Index()
         {
             var amenities = _amenityService.GetAllAmenities();
+        
             return View(amenities);
         }
 
