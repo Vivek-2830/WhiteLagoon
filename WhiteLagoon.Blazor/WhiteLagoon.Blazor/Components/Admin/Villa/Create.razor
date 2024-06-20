@@ -1,0 +1,101 @@
+﻿@page "/Villa"
+@using WhiteLagoon.Application.Services.Interface
+@inject IVillaService VillaService  
+@inject NavigationManager NavigationManager  
+
+<h2 class="text-white py-2">Create Villa</h2>
+
+@if (ShowSuccessMessage)
+{
+    <div class="alert alert-success" role="alert">
+        @SuccessMessage
+    </div>
+}
+
+<div class="card border-0 p-4">
+    <div class="card-header bg-success bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Create Villa</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body border p-4">
+        <EditForm Model="@villa" OnValidSubmit="@CreateVilla">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="form-floating py-1 col-12">
+                <InputText @bind-Value="villa.Name" class="form-control border shadow" />
+                <label for="Name" class="ms-2">Name</label>
+                <ValidationMessage For="@(() => villa.Name)" class="text-danger" />
+            </div>
+            <div class="form-floating py-1 col-12">
+                <InputText @bind-Value="villa.Description" class="form-control border shadow" />
+                <label for="Description" class="ms-2">Description</label>
+                <ValidationMessage For="@(() => villa.Description)" class="text-danger" />
+            </div>
+            <div class="form-floating py-1 col-12">
+                <InputNumber @bind-Value="villa.Price" class="form-control border shadow" />
+                <label for="Price" class="ms-2">Price</label>
+                <ValidationMessage For="@(() => villa.Price)" class="text-danger" />
+            </div>
+            <div class="form-floating py-1 col-12">
+                <InputNumber @bind-Value="villa.Sqft" class="form-control border shadow" />
+                <label for="Sqft" class="ms-2">Sqft</label>
+                <ValidationMessage For="@(() => villa.Sqft)" class="text-danger" />
+            </div>
+            <div class="form-floating py-1 col-12">
+                <InputNumber @bind-Value="villa.Occupancy" class="form-control border shadow" />
+                <label for="Occupancy" class="ms-2">Occupancy</label>
+                <ValidationMessage For="@(() => villa.Occupancy)" class="text-danger" />
+            </div>
+            <div class="form-floating py-1 col-12">
+                <InputText @bind-Value="villa.ImageUrl" class="form-control border shadow" />
+                <label for="ImageUrl" class="ms-2">Image URL</label>
+                <ValidationMessage For="@(() => villa.ImageUrl)" class="text-danger" />
+            </div>
+
+            <div class="row pt-2">
+                <div class="col-6 col-md-3">
+                    <button type="submit" class="btn btn-success w-100">
+                        <i class="bi bi-check-circle"></i> Create
+                    </button>
+                </div>
+                <div class="col-6 col-md-3">
+                    <button type="button" class="btn btn-secondary w-100" @onclick="Cancel">
+                        <i class="bi bi-x-circle"></i> Cancel
+                    </button>
+                </div>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+
+    private  Villa villa = new Villa();
+
+    private bool ShowSuccessMessage { get; set; }
+    private string SuccessMessage { get; set; }
+
+    private async Task CreateVilla()
+    {
+        if (villa.Name == villa.Description)
+        {
+
+            ShowSuccessMessage = false;  
+            SuccessMessage = "The description cannot exactly match the Name.";
+            return;
+        }
+        VillaService.CreateVilla(villa);
+        ShowSuccessMessage = true;
+        SuccessMessage = "The villa has been created successfully";
+        NavigationManager.NavigateTo("/index");
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/index");
+    }
+}

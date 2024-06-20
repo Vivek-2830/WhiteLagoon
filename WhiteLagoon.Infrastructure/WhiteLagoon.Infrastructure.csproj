@@ -23,4 +23,8 @@
     <ProjectReference Include="..\WhiteLagoon.Application\WhiteLagoon.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extension\" />
+  </ItemGroup>
+
 </Project>
