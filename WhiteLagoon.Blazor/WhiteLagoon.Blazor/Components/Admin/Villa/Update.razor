@@ -1,0 +1,113 @@
+﻿@page "/Villa/Update/{villaId:int}"
+
+@using WhiteLagoon.Application.Services.Interface
+
+@using WhiteLagoon.Blazor.Components.Pages 
+@rendermode InteractiveServer
+@inject IVillaService VillaService
+@inject NavigationManager NavigationManager
+
+
+
+<div class="w-100 card border-0 p-4">
+    <div class="card-header bg-success bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Update Villa </h2>
+            </div>
+        </div>
+    </div>
+   <div class="card-body border p-4">
+        <EditForm Model="@VillaId" method="post" FormName="updateVilla" OnValidSubmit="UpdateV">
+            
+            <div class="col-10">
+                    <div class="p-3">
+                        <div class="form-floating py-1 col-12">
+                        <InputText @bind-Value="villa.Name" class="form-control border shadow" />
+                            <label for="Name" class="ms-2">Name</label>
+                             <ValidationMessage For="@(() => villa.Name)" />
+                        </div>
+                        <div class="form-floating py-1 col-12">
+                        <InputText @bind-Value="villa.Description" class="form-control border shadow" />
+                            <label for="Description" class="ms-2">Description</label>
+                            <ValidationMessage For="@(() => villa.Description)" />
+                        </div>
+                        <div class="form-floating py-1 col-12">
+                        <InputNumber @bind-Value="villa.Price" class="form-control border shadow" />
+                            <label for="Price" class="ms-2">Price</label>
+                            <ValidationMessage For="@(() => villa.Price)" />
+                        </div>
+                        <div class="form-floating py-1 col-12">
+                        <InputNumber @bind-Value="villa.Sqft" class="form-control border shadow" />
+                            <label for="Sqft" class="ms-2">Sqft</label>
+                            <ValidationMessage For="@(() => villa.Sqft)" />
+                        </div>
+                        <div class="form-floating py-1 col-12">
+                        <InputNumber @bind-Value="villa.Occupancy" class="form-control border shadow" />
+                            <label for="Occupancy" class="ms-2">Occu[ancy</label>
+                            <ValidationMessage For="@(() => villa.Occupancy)" />
+                        </div>
+                      @*   <div class="form-floating py-1 col-12"> *@
+                            @* <InputText @bind-Value="villa.Image" class="form-control border shadow" />
+                            <InputHidden @bind-Value="villa.ImageUrl" />
+                            <label for="ImageUrl" class="ms-2"></label>
+                            <ValidationMessage For="@(() => villa.ImageUrl)" /> *@
+                      @*   </div> *@
+                        <div class="row pt-2">
+                            <div class="col-6 col-md-3">
+                                <button type="submit" class="btn btn-success w-100">
+                                    <i class="bi bi-check-circle"></i> Update
+                                </button>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <button type="button" class="btn btn-secondary w-100" @onclick="Cancel">
+                                    <i class="bi bi-x-circle"></i> Cancel
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @* <div class="col-2">
+                    <img src="@villa.ImageUrl" width="100%" 
+                    style="border-radius:5px; border:1px solid #bbb9b9" />        
+                </div> *@
+         </EditForm>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int VillaId { get; set; }
+
+    private WhiteLagoon.Domain.Entities.Villa villa = new WhiteLagoon.Domain.Entities.Villa();
+
+    protected override void OnInitialized()
+    {
+        villa = VillaService.GetVillaById(VillaId);
+    }
+ 
+    private  void UpdateV()
+    {
+        if (villa != null && villa.Id > 0)
+        {
+             VillaService.UpdateVilla(villa);
+
+            NavigationManager.NavigateTo("/villa");
+        }
+        else
+        {
+            if (villa == null)
+            {
+                // ShowErrorMessage = true;
+                // ErrorMessage = "The villa has been not updated successfully";
+                NavigationManager.NavigateTo("/villa");
+                
+            }
+        }
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/villa");
+    }    
+}

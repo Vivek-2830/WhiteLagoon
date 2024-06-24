@@ -1,0 +1,113 @@
+﻿@page "/Villa/Delete/{VillaId:int}"
+@using WhiteLagoon.Application.Services.Interface
+@using WhiteLagoon.Blazor.Components.Pages
+@rendermode InteractiveServer
+@inject IVillaService VillaService
+@inject NavigationManager NavigationManager
+
+
+
+ <div class="w-100 card border-0 p-4">
+        <div class="card-header bg-success bg-gradient ml-0 py-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white py-2">Delete Villa</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card-body border p-4">
+            <EditForm Model="@VillaId" method="post" FormName="Delete" OnValidSubmit="DeleteV">
+                <div class="row">
+                    <div class="col-10">
+                        <div class="p-3">
+                            <div class="form-floating py-1 col-12">
+                                <input @bind="@villa.Name" disabled class="form-control border shadow" />
+                                <label>Name</label>
+                            </div>
+                            <div class="form-floating py-1 col-12">
+                                <input @bind="@villa.Description" disabled class="form-control border shadow" />
+                                <label>Description</label>
+                            </div>
+                            <div class="form-floating py-1 col-12">
+                                <input @bind="@villa.Price" disabled class="form-control border shadow" />
+                                <label>Price</label>
+                            </div>
+                            <div class="form-floating py-1 col-12">
+                                <input @bind="@villa.Sqft" disabled class="form-control border shadow" />
+                                <label>Sqft</label>
+                            </div>
+                            <div class="form-floating py-1 col-12">
+                                <input @bind="@villa.Occupancy" disabled class="form-control border shadow" />
+                                <label>Occupancy</label>
+                            </div>
+                            <div class="form-floating py-1 col-12">
+                                <input @bind="@villa.ImageUrl" disabled class="form-control border shadow" />
+                                <label>Image URL</label>
+                            </div>
+                            <input @bind="@villa.Id" hidden />
+                            <div class="row pt-2">
+                                <div class="col-6 col-md-3">
+                                    <button type="submit" class="btn btn-danger w-100">
+                                        <i class="bi bi-trash-fill"></i> Delete
+                                    </button>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <button type="button" class="btn btn-secondary w-100" @onclick="Cancel">
+                                        <i class="bi bi-x-circle"></i> Cancel
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img src="@villa.ImageUrl" width="100%"
+                             style="border-radius: 5px; border: 1px solid #bbb9b9;" />
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+
+@code {
+
+    [Parameter]
+    public int VillaId { get; set; }
+    private WhiteLagoon.Domain.Entities.Villa villa = new WhiteLagoon.Domain.Entities.Villa();
+
+
+    protected override void  OnInitialized()
+    {
+        villa =  VillaService.GetVillaById(VillaId);
+        if (villa == null)
+        {
+            NavigationManager.NavigateTo("/Error");
+        }
+    }
+
+    private async Task DeleteV()
+    {
+        bool deleted =  VillaService.DeleteVilla(villa.Id);
+        if ( VillaService.DeleteVilla(villa.Id))
+        {
+            VillaService.DeleteVilla(villa.Id);
+
+            NavigationManager.NavigateTo("/villa");
+        }
+        else
+        {
+            if (villa == null)
+            {
+                // ShowErrorMessage = true;
+                // ErrorMessage = "The villa has been not updated successfully";
+                NavigationManager.NavigateTo("/villa");
+
+            }
+        }
+
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo($"/villa");
+    }
+}

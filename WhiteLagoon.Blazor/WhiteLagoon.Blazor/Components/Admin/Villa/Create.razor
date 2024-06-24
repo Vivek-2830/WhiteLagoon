@@ -1,4 +1,5 @@
-﻿@page "/Villa"
+﻿@page "/Villa/Create"
+@rendermode InteractiveServer
 @using WhiteLagoon.Application.Services.Interface
 @inject IVillaService VillaService  
 @inject NavigationManager NavigationManager  
@@ -21,9 +22,9 @@
         </div>
     </div>
     <div class="card-body border p-4">
-        <EditForm Model="@villa" OnValidSubmit="@CreateVilla">
+        <EditForm Model="villa" method="post" FormName="Create" OnValidSubmit="CreateVilla">
             <DataAnnotationsValidator />
-            <ValidationSummary />
+             <ValidationSummary /> 
 
             <div class="form-floating py-1 col-12">
                 <InputText @bind-Value="villa.Name" class="form-control border shadow" />
@@ -50,11 +51,11 @@
                 <label for="Occupancy" class="ms-2">Occupancy</label>
                 <ValidationMessage For="@(() => villa.Occupancy)" class="text-danger" />
             </div>
-            <div class="form-floating py-1 col-12">
+          @*   <div class="form-floating py-1 col-12">
                 <InputText @bind-Value="villa.ImageUrl" class="form-control border shadow" />
                 <label for="ImageUrl" class="ms-2">Image URL</label>
                 <ValidationMessage For="@(() => villa.ImageUrl)" class="text-danger" />
-            </div>
+            </div> *@
 
             <div class="row pt-2">
                 <div class="col-6 col-md-3">
@@ -73,29 +74,23 @@
 </div>
 
 @code {
-
+    
     private  Villa villa = new Villa();
-
     private bool ShowSuccessMessage { get; set; }
     private string SuccessMessage { get; set; }
 
-    private async Task CreateVilla()
-    {
-        if (villa.Name == villa.Description)
-        {
+    
 
-            ShowSuccessMessage = false;  
-            SuccessMessage = "The description cannot exactly match the Name.";
-            return;
-        }
+    private void CreateVilla()
+    {
         VillaService.CreateVilla(villa);
         ShowSuccessMessage = true;
         SuccessMessage = "The villa has been created successfully";
-        NavigationManager.NavigateTo("/index");
+        NavigationManager.NavigateTo("/villa");
     }
 
     private void Cancel()
     {
-        NavigationManager.NavigateTo("/index");
+        NavigationManager.NavigateTo("/villa");
     }
 }

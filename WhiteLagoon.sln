@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Application", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Infrastructure", "WhiteLagoon.Infrastructure\WhiteLagoon.Infrastructure.csproj", "{159A694A-5478-4006-8460-FA51A50819A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Blazor", "WhiteLagoon.Blazor\WhiteLagoon.Blazor\WhiteLagoon.Blazor.csproj", "{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Blazor", "WhiteLagoon.Blazor\WhiteLagoon.Blazor\WhiteLagoon.Blazor.csproj", "{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Blazor.Client", "WhiteLagoon.Blazor\WhiteLagoon.Blazor.Client\WhiteLagoon.Blazor.Client.csproj", "{6E06B381-5F79-4581-B6B8-14DA16948B76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Blazor.Client", "WhiteLagoon.Blazor\WhiteLagoon.Blazor.Client\WhiteLagoon.Blazor.Client.csproj", "{6E06B381-5F79-4581-B6B8-14DA16948B76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
