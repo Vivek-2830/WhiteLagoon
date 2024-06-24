@@ -1,7 +1,8 @@
-﻿@page "/Villa"
+﻿@page "/Villa/Create"
+@rendermode InteractiveServer
 @using WhiteLagoon.Application.Services.Interface
-@inject IVillaService VillaService  
-@inject NavigationManager NavigationManager  
+@inject IVillaService VillaService
+@inject NavigationManager NavigationManager
 
 <h2 class="text-white py-2">Create Villa</h2>
 
@@ -21,7 +22,7 @@
         </div>
     </div>
     <div class="card-body border p-4">
-        <EditForm Model="@villa" OnValidSubmit="@CreateVilla">
+        <EditForm Model="@villa" method="post" FormName="createVilla" OnValidSubmit="CreateVilla">
             <DataAnnotationsValidator />
             <ValidationSummary />
 
@@ -55,7 +56,7 @@
                 <label for="ImageUrl" class="ms-2">Image URL</label>
                 <ValidationMessage For="@(() => villa.ImageUrl)" class="text-danger" />
             </div>
-
+            
             <div class="row pt-2">
                 <div class="col-6 col-md-3">
                     <button type="submit" class="btn btn-success w-100">
@@ -68,34 +69,30 @@
                     </button>
                 </div>
             </div>
+
         </EditForm>
     </div>
 </div>
 
 @code {
 
-    private  Villa villa = new Villa();
-
+    private Villa villa = new Villa();
     private bool ShowSuccessMessage { get; set; }
     private string SuccessMessage { get; set; }
+    private IBrowserFile imageFile;
 
-    private async Task CreateVilla()
+    private void CreateVilla()
     {
-        if (villa.Name == villa.Description)
-        {
-
-            ShowSuccessMessage = false;  
-            SuccessMessage = "The description cannot exactly match the Name.";
-            return;
-        }
         VillaService.CreateVilla(villa);
         ShowSuccessMessage = true;
-        SuccessMessage = "The villa has been created successfully";
-        NavigationManager.NavigateTo("/index");
+        SuccessMessage = "Villa created successfully!";
+        NavigationManager.NavigateTo($"/villa");
     }
 
     private void Cancel()
     {
-        NavigationManager.NavigateTo("/index");
+        NavigationManager.NavigateTo($"/villa");
     }
 }
+
+    

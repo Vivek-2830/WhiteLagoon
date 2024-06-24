@@ -7,16 +7,38 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Components\Admin\Villa\Delete.razor" />
+    <Content Remove="Components\Admin\Villa\Update.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\WhiteLagoon.Application\WhiteLagoon.Application.csproj" />
     <ProjectReference Include="..\..\WhiteLagoon.Domain\WhiteLagoon.Domain.csproj" />
     <ProjectReference Include="..\..\WhiteLagoon.Infrastructure\WhiteLagoon.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\WhiteLagoon.Web\WhiteLagoon.Web.csproj" />
     <ProjectReference Include="..\WhiteLagoon.Blazor.Client\WhiteLagoon.Blazor.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Admin\Villa\Update.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Admin\Villa\Delete.razor" />
+    <_ContentIncludedByDefault Remove="Components\Admin\Villa\Update.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\Admin\Villa\Delete.razor" />
+    <None Include="Components\Admin\Villa\Update.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Admin\Villa\Delete.razor" />
   </ItemGroup>
 
 </Project>

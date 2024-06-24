@@ -16,28 +16,28 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+                 
 
-builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(option =>
 option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+//builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    //.AddEntityFrameworkStores<ApplicationDbContext>();
 
-builder.Services.ConfigureApplicationCookie(option =>
-{
-    option.AccessDeniedPath = "/Account/AccessDenied";
-    option.LoginPath = "/Account/Login";
-});
+////builder.Services.ConfigureApplicationCookie(option =>
+////{
+////    option.AccessDeniedPath = "/Account/AccessDenied";
+////    option.LoginPath = "/Account/Login";
+////});
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IDashboardService, DashboardService>();
-builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+//builder.Services.AddScoped<IDashboardService, DashboardService>();
+//builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddScoped<IVillaService, VillaService>();
-builder.Services.AddScoped<IVillaNumberService, VillaNumberService>();
-builder.Services.AddScoped<IAmenityService, AmenityService>();
-builder.Services.AddScoped<IBookingService, BookingService>();
+//builder.Services.AddScoped<IVillaNumberService, VillaNumberService>();
+//builder.Services.AddScoped<IAmenityService, AmenityService>();
+//builder.Services.AddScoped<IBookingService, BookingService>();
 
 var app = builder.Build();
 
