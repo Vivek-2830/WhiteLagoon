@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Components\Admin\VillaNumber\Update.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\WhiteLagoon.Application\WhiteLagoon.Application.csproj" />
     <ProjectReference Include="..\..\WhiteLagoon.Domain\WhiteLagoon.Domain.csproj" />
     <ProjectReference Include="..\..\WhiteLagoon.Infrastructure\WhiteLagoon.Infrastructure.csproj" />
@@ -17,6 +21,18 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Admin\VillaNumber\Update.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Admin\VillaNumber\Update.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\Admin\VillaNumber\Update.razor" />
   </ItemGroup>
 
 </Project>

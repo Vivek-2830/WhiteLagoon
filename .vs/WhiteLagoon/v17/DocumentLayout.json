@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villanumber\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|solutionrelative:whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villanumber\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\views\\villanumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\villanumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.web\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0F04A69-BCEA-4D72-AAF7-27E8B329330B}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.blazor\\whitelagoon.blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|solutionrelative:whitelagoon.blazor\\whitelagoon.blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villanumber\\update.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|solutionrelative:whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villanumber\\update.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villa\\update.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|solutionrelative:whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villa\\update.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villanumber\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|solutionrelative:whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villanumber\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villa\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|solutionrelative:whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villa\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|c:\\users\\admin\\documents\\github\\whitelagoon\\whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villanumber\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED621CD8-D6AC-4CBE-AFDD-D60C7D014B62}|WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor.csproj|solutionrelative:whitelagoon.blazor\\whitelagoon.blazor\\components\\admin\\villanumber\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +42,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAqAAAA",
+              "DocumentIndex": 2,
+              "Title": "Update.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\Villa\\Update.razor",
+              "RelativeDocumentMoniker": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\Villa\\Update.razor",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\Villa\\Update.razor",
+              "RelativeToolTip": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\Villa\\Update.razor",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T13:24:25.323Z",
+              "WhenOpened": "2024-06-27T10:27:10.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\VillaNumber\\Index.cshtml",
-              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\VillaNumber\\Index.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Views\\VillaNumber\\Index.cshtml",
-              "RelativeToolTip": "WhiteLagoon.Web\\Views\\VillaNumber\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T13:23:44.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Index.razor",
               "RelativeDocumentMoniker": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Index.razor",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Index.razor",
               "RelativeToolTip": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T13:15:07.644Z",
+              "WhenOpened": "2024-06-27T10:15:08.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Create.razor",
+              "RelativeDocumentMoniker": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Create.razor",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Create.razor",
+              "RelativeToolTip": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Create.razor",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAABAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T10:12:47.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\Villa\\Index.razor",
+              "RelativeDocumentMoniker": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\Villa\\Index.razor",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\Villa\\Index.razor",
+              "RelativeToolTip": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\Villa\\Index.razor",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T09:43:32.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Update.razor",
+              "RelativeDocumentMoniker": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Update.razor",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Update.razor",
+              "RelativeToolTip": "WhiteLagoon.Blazor\\WhiteLagoon.Blazor\\Components\\Admin\\VillaNumber\\Update.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T05:25:03.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "VillaNumberController.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Controllers\\VillaNumberController.cs",
               "RelativeDocumentMoniker": "WhiteLagoon.Web\\Controllers\\VillaNumberController.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\WhiteLagoon\\WhiteLagoon.Web\\Controllers\\VillaNumberController.cs",
               "RelativeToolTip": "WhiteLagoon.Web\\Controllers\\VillaNumberController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAABVAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAEwEQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T13:07:49.778Z",
+              "WhenOpened": "2024-06-26T11:22:08.231Z",
               "EditorCaption": ""
             }
           ]

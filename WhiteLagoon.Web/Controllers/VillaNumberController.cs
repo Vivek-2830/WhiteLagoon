@@ -43,16 +43,16 @@ namespace WhiteLagoon.Web.Controllers
         {
             //ModelState.Remove("Villa");
 
-            bool roomNumebrExists = _villaNumberService.CheckVillaNumberExists(obj.VillaNumber.Villa_Number);
+            bool roomNumeberExists = _villaNumberService.CheckVillaNumberExists(obj.VillaNumber.Villa_Number);
 
-            if (ModelState.IsValid && !roomNumebrExists)
+            if (ModelState.IsValid && !roomNumeberExists)
             {
                _villaNumberService.CreateVillaNumber(obj.VillaNumber);
                 TempData["success"] = "The villa Number has been created successfully";
                 return RedirectToAction(nameof(Index));
             }
 
-            if (roomNumebrExists)
+            if (roomNumeberExists)
             {
                 TempData["error"] = "The villa Number already exists.";
             }
