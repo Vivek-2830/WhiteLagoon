@@ -31,13 +31,13 @@ builder.Services.ConfigureApplicationCookie(option =>
     option.LoginPath = "/Account/Login";
 });
 
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IDashboardService, DashboardService>();
-builder.Services.AddScoped<IDbInitializer, DbInitializer>();
-builder.Services.AddScoped<IVillaService, VillaService>();
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+builder.Services.AddTransient<IDashboardService, DashboardService>();
+builder.Services.AddTransient<IDbInitializer, DbInitializer>();
+builder.Services.AddTransient<IVillaService, VillaService>();
 builder.Services.AddScoped<IVillaNumberService, VillaNumberService>();
-builder.Services.AddScoped<IAmenityService, AmenityService>();
-builder.Services.AddScoped<IBookingService, BookingService>();
+builder.Services.AddTransient<IAmenityService, AmenityService>();
+builder.Services.AddTransient<IBookingService, BookingService>();
 
 var app = builder.Build();
 

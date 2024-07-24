@@ -1,0 +1,100 @@
+﻿@page "/VillaNumber/Delete/{VillaNumberId:int}"
+@rendermode InteractiveServer
+@using WhiteLagoon.Application.Services.Interface
+@using WhiteLagoon.Application.Services.Implementation
+@inject IVillaNumberService VillaNumberService
+@inject IVillaService VillaService
+@inject NavigationManager NavigationManager
+
+<div class="w-100 card border-0 p-4">
+    <div class="card-header bg-success bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Delete Villa Number </h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body border p-4">
+        <EditForm Model="@villaNumberObj" method="post" FormName="deleteVillaNumber" OnValidSubmit="DeleteV">
+           
+            <div class="col-10">
+               <div class="p-3">
+                    <div class="form-floating py-1 col-12">
+                        <InputSelect @bind-Value="villaNumberObj.VillaId" disabled class="form-control border shadow">
+                           
+                            
+                            @foreach (var villa in VillaList)
+                            {
+                            <option value="@villa.Value">@villa.Text</option>
+                            }
+                            
+                        </InputSelect>
+                    <label>Villa</label>
+                    <ValidationMessage For="@(() => villaNumberObj.VillaId)" />
+                    </div>
+                    <div class="form-floating py-1 col-12">
+                        <InputNumber @bind-Value="villaNumberObj.Villa_Number" disabled class="form-control border shadow" />
+                        <label>Villa Number</label>
+                        <ValidationMessage For="@(() => villaNumberObj.Villa_Number)" />
+                    </div>
+                    <div class="form-floating py-1 col-12">
+                        <InputText @bind-Value="villaNumberObj.SpecialDetails" disabled class="form-control border shadow" />
+                        <label>Special Details</label>
+                        <ValidationMessage For="@(() => villaNumberObj.SpecialDetails)" />
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-6 col-md-3">
+                            <button type="submit" class="btn btn-success w-100">
+                                <i class="bi bi-check-circle"></i> Delete
+                            </button>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <button type="button" class="btn btn-secondary w-100" @onclick="Cancel">
+                                <i class="bi bi-x-circle"></i> Cancel
+                            </button>
+                        </div> 
+                    </div>
+               </div>
+            </div>
+        </EditForm>
+   </div>
+</div> 
+
+@code {
+        [Parameter]
+        public int VillaNumberId { get; set; }
+        private WhiteLagoon.Domian.Entities.VillaNumber villaNumberObj { get; set; }
+        IEnumerable<SelectListItem> VillaList { get;set; }
+
+        protected override void OnInitialized()
+        {
+           VillaList = VillaService.GetAllVillas().Select(u => new SelectListItem
+           {
+                Text = u.Name,
+                Value = u.Id.ToString()
+           }).ToList();
+
+           villaNumberObj = VillaNumberService.GetVillaNumberById(VillaNumberId);
+        }
+
+        private async Task DeleteV()
+        {
+            VillaNumber villaNumber = VillaNumberService.GetVillaNumberById(VillaNumber.Villa_Number);
+            if (VillaNumber != null)
+            {
+                VillaNumberService.UpdateVillaNumber(villaNumberObj);
+                NavigationManager.NavigateTo("/villaNumber");
+            }
+            else
+            {
+                NavigationManager.NavigateTo("/villaNumber");
+            }
+        }
+
+    using Microsoft.AspNetCore.Mvc.Rendering;
+        private void Cancel()
+        {
+            NavigationManager.NavigateTo("/villaNumber");
+        }
+}
+

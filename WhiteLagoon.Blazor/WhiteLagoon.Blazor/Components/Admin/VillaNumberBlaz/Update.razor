@@ -1,0 +1,95 @@
+﻿@page "/VillaNumber/Update/{VillaNumberId:int}"
+@rendermode InteractiveServer
+@using Microsoft.AspNetCore.Mvc.Rendering
+@using WhiteLagoon.Application.Services.Implementation
+@using WhiteLagoon.Application.Services.Interface
+@inject IVillaService VillaService
+@inject IVillaNumberService VillaNumberService
+@inject NavigationManager NavigationManager
+
+<h3>Update</h3>
+
+<div class="w-100 card border-0 p-4">
+    <div class="card-header bg-success  bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Update Villa Number</h2> 
+            </div>
+        </div>
+    </div> 
+   <div class="card-body border p-4">
+        <EditForm Model="@villaNumberObj" method="post" FormName="updateVillaNumber" OnValidSubmit="UpdateV">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+           <div class="col-10">
+               <div class="p-3">
+                    <div class="form-floating py-1 col-12">
+                        <InputSelect @bind-Value="villaNumberObj.VillaId" class="form-control border shadow">
+                            @foreach (var villa in VillaList)
+                            {
+                                <option value="@villa.Value">@villa.Text</option>
+                            }S
+                        </InputSelect>
+                    <label>Villa</label>
+                    <ValidationMessage For="@(() => villaNumberObj.VillaId)" />
+                    </div>
+                    <div class="form-floating py-1 col-12">
+                        <InputNumber @bind-Value="villaNumberObj.Villa_Number" disabled class="form-control border shadow" />
+                        <label>Villa Number</label>
+                        <ValidationMessage For="@(() => villaNumberObj.Villa_Number)" />
+                    </div>
+                    <div class="form-floating py-1 col-12">
+                        <InputText @bind-Value="villaNumberObj.SpecialDetails" class="form-control border shadow" />
+                        <label>Special Details</label>
+                        <ValidationMessage For="@(() => villaNumberObj.SpecialDetails)" />
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-6 col-md-3">
+                            <button type="submit" class="btn btn-success w-100">
+                                <i class="bi bi-check-circle"></i> Update
+                            </button>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <button type="button" class="btn btn-secondary w-100" @onclick="Cancel">
+                                <i class="bi bi-x-circle"></i> Cancel
+                            </button>
+                        </div> 
+                    </div>
+               </div>
+           </div>
+        </EditForm>
+   </div>
+</div>
+
+
+
+@code {
+    [Parameter]
+    public int VillaNumberId { get; set; }
+
+    private WhiteLagoon.Domain.Entities.VillaNumber villaNumberObj { get; set; }
+    IEnumerable<SelectListItem> VillaList { get; set; }
+
+
+    protected override void OnInitialized()
+    {
+        VillaList = VillaService.GetAllVillas().Select(u => new SelectListItem
+            {
+                Text = u.Name,
+                Value = u.Id.ToString()
+            }).ToList();
+
+        villaNumberObj = VillaNumberService.GetVillaNumberById(VillaNumberId);
+    }
+
+    private void UpdateV()
+    {
+        VillaNumberService.UpdateVillaNumber(villaNumberObj);
+        NavigationManager.NavigateTo("/villaNumber");
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/villaNumber");
+    }
+}
